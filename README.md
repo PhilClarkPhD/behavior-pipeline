@@ -1,5 +1,6 @@
 # behavior-pipeline
-### *Streamlining analysis of self-administration behavior data*
+
+## *Bakground*
 
 Self-administration may be the most popular pre-clinical model for substance abuse. Hundreds of labs around the world train animals (rats and mice, mostly) to self-administer cocaine, heroin, alcohol, nicotine, and other drugs in order to understand the relationship between environment, behavior, and neurochemistry. My lab is one of them.
 
@@ -9,7 +10,10 @@ The goal for this project was to generate an automated pipeline that would perfo
 
 The result is a system that, while not perfect, saves everyone in the lab 30+ minutes of time per day. 
 
-### *In this repo...*
-* 
+## *In this repo...*
+* **transfer.bat:** A windows batch file that performs the data transfer from one drive to another. Saving us the step of manually retrieving the data from another floor.
+* **file_sort.py:** A simple python script to sort the files into folders that match the animal names. This makes it _much_ easier to find data.
+* **extract_metrics.py:** Extracts the metrics of greatest interest: drug infusions, inter-press intervals, latency to first press, active and inactive presses, etc.
+* **dashboard.py:** Build a dashboard from the metrics above, updated daily.
 
 
