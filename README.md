@@ -1,6 +1,6 @@
 # behavior-pipeline
 
-## *Bakground*
+## *Background*
 
 Self-administration may be the most popular pre-clinical model for substance abuse. Hundreds of labs around the world train animals (rats and mice, mostly) to self-administer addictive drugs in order to understand the relationship between environment, behavior, and neurochemistry. My lab is one of them.
 
