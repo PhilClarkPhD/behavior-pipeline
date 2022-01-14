@@ -6,9 +6,9 @@ Self-administration may be the most popular pre-clinical model for substance abu
 
 To understand why self-administration experiments are important and how they have contributed to our understanding of substance abuse in humans, see this [review](https://www.sciencedirect.com/science/article/pii/S0149763410001764). But to learn more about my effort to streamline analysis of this data in our lab, read on.
 
-The goal for this project was to generate an automated pipeline that would perform daily updates to transfer behavior data to a network drive, sort the data into folders by animal ID, then generate a set of metrics from the data that would feed into a dashboard. This represented a significant improvement on our previous system, which required us to go to a separate floor of the building, retrieve the data on a flashdrive, examine each file independently to extract metrics, and append these data to excel files, which were maintained separately by each person in the lab. The old approach was slow, error-prone, and generally a nuisance.
+The goal for this project was to generate a pipeline that would automatically transfer raw data from one network location to another, analyze it, and display it on a dashboard. This represents a significant improvement on our previous system, which required us to physically retrieve the data on a flashdrive each day, extract metrics from each file using basic Excel operations, and append these data to files which were maintained separately by each person in the lab. The old approach was slow, error-prone, and a nuisance.
 
-The result is a system that, while not perfect, saves everyone in the lab 30+ minutes of time per day. 
+The result is a system that, while not perfect, saves everyone in the lab 30+ minutes of time per day and limits human error.
 
 ## *In this repo...*
 * **transfer.bat:** A windows batch file that transfers data from between drives. Saves us having to manually retrieve the data from computers on another floor of the building.
